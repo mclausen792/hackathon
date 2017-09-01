@@ -1,0 +1,62 @@
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+  /*background-size: 100% 100%;*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  display: flex;
+  color: whitesmoke;
+  font-family: 'Indie Flower', cursive;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-shadow: 1px 1px 20px black;
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  color: whitesmoke;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 20px black;
+  font-size: 1.5em;
+}
+
+button {
+  border-radius: 100px;
+  background: linear-gradient(#66D8AD, #56bf97 50%, #66D8AD);
+  box-shadow: 1px 1px 20px black;
+  color: white;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 3em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.quote {
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
